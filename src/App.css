@@ -3,34 +3,33 @@ body {
 }
 
 h1 {
-    background-color: #4CAF50;
+    /* background-color: #4CAF50; */
     /* Green */
-    color: white;
-    text-decoration: underline;
+    /* color: white; */
+    /* text-decoration: underline; */
+    /* text-align: center; */
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
     border: solid 2px lightgray;
 }
 
 #button,
 #buttonR {
-    background-color: #4CAF50;
+    /* background-color: #4CAF50; */
     /* Green */
-    color: white;
-    text-align: center;
-    padding: 10px 20px;
-    font-size: 22px;
-    text-decoration: none;
+    /* color: white; */
+    /* text-align: center; */
     /*border: solid 5px green;*/
+    /* text-decoration: none; */
+    /* padding: 10px 20px; */
+    font-size: 22px;
     border: solid 2px lightgray;
     width: 190px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 10px;
+    /* display: inline-block; */
 }
 
 p {
-    background-color: #4CAF50;
-    /* Green */
     background-color: #75507B;
     color: white;
     font-size: 22px;
