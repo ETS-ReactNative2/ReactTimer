@@ -50,8 +50,8 @@ class App extends Component {
       this.audio.play();
     }
     // var tT = 3 * 60 * 60 * 1000;
-    // setTimeout(myTimer, 10800000);
-    setTimeout(myTimer, 6000);
+    setTimeout(myTimer, 10800000);
+    // setTimeout(myTimer, 6000);
     function myTimer() {
       c();
       d();
@@ -60,16 +60,17 @@ class App extends Component {
   }
 
   render() {
+    const {button, disp1, disp2, bgd, disp3, bg} = this.state;
     return (
       <div>
         <Header />
         <hr /><br />
         <Reload1 reloadBtn={this.reloadBtn} timer={this.timer}
-          disabled={this.state.button}
-          style={{ background: this.state.bg }} /><br />
-        <Clock1 test={this.state.disp1} test2={this.state.disp2}
-          test3={{ background: this.state.bgd }}
-          test4={this.state.disp3} />
+          disabled={button}
+          style={{ background: bg }} /><br />
+        <Clock1 test={disp1} test2={disp2}
+          test3={{ background: bgd }}
+          test4={disp3} />
       </div>
     );
   }

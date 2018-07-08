@@ -8,7 +8,7 @@ const Clock1 = ({ test, test2, test3, test4 }) => {
             <p>{new Date().toLocaleTimeString()}</p><br />
             <p>{test} </p><br />
             <p>{test2} </p><br />
-            <p style={ test3 }>{test4}</p>
+            <p style={test3}>{test4}</p>
         </div>
     )
 }
