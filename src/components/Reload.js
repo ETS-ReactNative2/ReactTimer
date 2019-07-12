@@ -7,9 +7,11 @@ class Reload extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.reloadBtn} className="bg-green white pa2 dib" id="buttonR">
+      <br />
+        <button onClick={this.reloadBtn} className="bg-green white pa2" id="buttonR">
           Reload
         </button>
+        <br />
       </div>
     );
   }

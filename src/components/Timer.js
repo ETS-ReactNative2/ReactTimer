@@ -47,18 +47,18 @@ class Timer extends Component {
         const { btn3ht, startTask, endTask, GrayB, waitTask, GreenB } = this.state;
         return (
             <div>
-                <button
-                    onClick={this.timer}
-                    className="bg-green white pa2"
-                    id="button"
-                    disabled={btn3ht}
-                    style={{ background: GreenB }}
-                >3 Hour Timer
+                {/* <button onClick={this.reloadBtn} className="bg-green white pa2" id="buttonR">
+                   Reload
+                </button> */}
+                <button onClick={this.timer} className="bg-green white pa2" id="button"
+                    disabled={btn3ht} style={{ background: GreenB }}> 
+                    3 Hour Timer
                  </button>
+                 <br />
                 <br />
-                <p>{startTask} </p><br />
-                <p>{endTask} </p><br />
-                <p style={{ background: GrayB }}>{waitTask}</p>
+                <p className = "ma2">{startTask} </p><br />
+                <p className = "ma2">{endTask} </p><br />
+                <p className = "ma2" style={{ background: GrayB }}>{waitTask}</p>
             </div>
         )
     }

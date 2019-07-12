@@ -12,10 +12,18 @@ class App extends Component {
     return (
       <div>
         <Header /><hr /><br />
-        <Reload /> <br />
-        <Date1 /> <br />
-        <Clock2 /><br />
+       <div className="dib ma3">
+        <Reload />
+        <br />
+        <Date1 /> 
+        <Clock2 />
+        <br />
+        <br />
+       </div>
+       <div className="dib ma3">
+       <br />
         <Timer />
+       </div> 
       </div>
     );
   }
