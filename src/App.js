@@ -12,16 +12,18 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
-       <div className="dib">
-        <Reload />
-        <Date1 /> 
-        <Clock2 />
-        <DevBy />
-       </div>
-       <div className="dib">
-        <Timer />
-       </div> 
+        <header>
+          <Header />
+        </header>
+        <div className="dib">
+          <Reload />
+          <Date1 />
+          <Clock2 />
+          <DevBy />
+        </div>
+        <div className="dib">
+          <Timer />
+        </div>
       </div>
     );
   }
