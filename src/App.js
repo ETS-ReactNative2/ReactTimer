@@ -7,6 +7,7 @@ import Date1 from "./components/Date1";
 import Clock2 from "./components/Clock2";
 import Timer from "./components/Timer";
 import DevBy from "./components/DevBy";
+import Particles1 from "./components/Particles1";
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
         <div className="dib">
           <Timer />
         </div>
+        <Particles1 />
       </div>
     );
   }
