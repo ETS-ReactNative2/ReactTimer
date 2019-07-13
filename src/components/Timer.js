@@ -35,8 +35,8 @@ class Timer extends Component {
             this.audio.play();
         };
         // var tT = 3 * 60 * 60 * 1000;
-        // setTimeout(myTimer, 10800000);
-        setTimeout(myTimer, 6000);
+        setTimeout(myTimer, 10800000);
+        // setTimeout(myTimer, 6000);
         function myTimer() {
             c();
             d();
@@ -46,19 +46,16 @@ class Timer extends Component {
     render() {
         const { btn3ht, startTask, endTask, GrayB, waitTask, GreenB } = this.state;
         return (
-            <div>
-                {/* <button onClick={this.reloadBtn} className="bg-green white pa2" id="buttonR">
-                   Reload
-                </button> */}
-                <button onClick={this.timer} className="bg-green white pa2" id="button"
+            <div>               
+                <button onClick={this.timer} className="bg-green" id="button"
                     disabled={btn3ht} style={{ background: GreenB }}> 
                     3 Hour Timer
                  </button>
-                 <br />
+                 
                 <br />
-                <p className = "ma2">{startTask} </p><br />
-                <p className = "ma2">{endTask} </p><br />
-                <p className = "ma2" style={{ background: GrayB }}>{waitTask}</p>
+                <p className = "">{startTask} </p><br />
+                <p className = "">{endTask} </p><br />
+                <p className = "" style={{ background: GrayB }}>{waitTask}</p>
             </div>
         )
     }

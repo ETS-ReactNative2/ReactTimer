@@ -19,7 +19,7 @@ class Clock2 extends Component{
     render(){
         return(
             <div>
-                <p className="ma2">{new Date().toLocaleTimeString()}</p>
+                <p className="">{new Date().toLocaleTimeString()}</p>
             </div>
         )
     }

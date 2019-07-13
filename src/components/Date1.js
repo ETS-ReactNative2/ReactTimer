@@ -4,7 +4,7 @@ class Date1 extends Component{
     render(){
         return(
             <div>
-                <p className="ma2">{new Date().toDateString()}</p>
+                <p className="">{new Date().toDateString()}</p>
             </div>
         )
     }
