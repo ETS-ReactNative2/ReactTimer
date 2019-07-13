@@ -51,7 +51,6 @@ class Timer extends Component {
                     disabled={btn3ht} style={{ background: GreenB }}> 
                     3 Hour Timer
                  </button>
-                 
                 <br />
                 <p className = "">{startTask} </p><br />
                 <p className = "">{endTask} </p><br />

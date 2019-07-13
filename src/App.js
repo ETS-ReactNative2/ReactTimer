@@ -6,6 +6,7 @@ import Reload from "./components/Reload";
 import Date1 from "./components/Date1";
 import Clock2 from "./components/Clock2";
 import Timer from "./components/Timer";
+import DevBy from "./components/DevBy";
 
 class App extends Component {
   render() {
@@ -16,7 +17,7 @@ class App extends Component {
         <Reload />
         <Date1 /> 
         <Clock2 />
-        <Clock2 />
+        <DevBy />
        </div>
        <div className="dib">
         <Timer />
