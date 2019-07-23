@@ -11,6 +11,8 @@ h1 {
     color: white;
     text-align: center;
     padding: 5px;
+    max-width: 470px;
+    margin-left: 20px;
     /* height: 40px; */
     /* background-color: #4CAF50; */
     /* Green */

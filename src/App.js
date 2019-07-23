@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <header>
+        <header className="wh3">
           <Header />
         </header>
         <div className="dib">
