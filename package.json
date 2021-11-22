@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "joi": "^17.4.0",
     "react": "^16.4.1",
     "react-audio": "0.0.1",
     "react-dom": "^16.4.1",
@@ -18,7 +19,6 @@
   },
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.14.2",
     "tachyons": "^4.10.0"
   },

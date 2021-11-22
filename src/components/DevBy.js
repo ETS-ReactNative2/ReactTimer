@@ -1,13 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
-class DevBy extends Component {
-  render() {
-    return (
-      <div>
-        <p className=" ">Dev. by Stk</p>
-      </div>
-    );
-  }
+function DevBy() {
+  return (
+    <div>
+      <p className=" ">Dev. by Stk</p>
+    </div>
+  );
 }
 
 export default DevBy;
