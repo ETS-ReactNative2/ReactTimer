@@ -16,10 +16,10 @@ const partOptions = {
       value: 80,
       density: {
         enable: true,
-        value_area: 800
-      }
-    }
-  }
+        value_area: 800,
+      },
+    },
+  },
 };
 
 export default Particles1;
